@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.navbar nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgba(57, 54, 54, 0.955);
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    background: url("assets/hero-bg.png");
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hero-text h1 {
+    font-size: 58px;
+}
+
+.hero-text p {
+    margin: 30px 0;
+}
+
+.hero-text button {
+    padding: 10px 25px;
+    background: #1ea30d;
+    color: #1e2225;
+    border: none;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+/* FEATURES */
+.features {
+    padding: 80px;
+    text-align: center;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.card {
+    width: 250px;
+}
+
+/* PROCESS */
+.process {
+    padding: 80px;
+    background: hsl(0, 2%, 51%);
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.step span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* BENEFITS */
+.benefits {
+    display: flex;
+    padding: 80px;
+}
+
+.benefits-left {
+    width: 80%;
+}
+
+.benefits-left ul {
+    margin-top: 40px;
+}
+
+.benefits-left li {
+    margin: 20px 0;
+}
+
+.benefits-right {
+    width: 50%;
+    text-align: center;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    padding: 80px;
+    text-align: center;
+}
+
+.testimonial-box {
+    width: 500px;
+    margin: auto;
+}
+
+/* CTA */
+.cta {
+    padding: 80px;
+    background: hsl(31, 97%, 47%);
+    color: white;
+    text-align: center;
+}
+
+.cta button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border: none;
+}
+
+/* FOOTER */
+.footer {
+    background: rgb(25, 18, 76);
+    color: rgb(234, 143, 8);
+    text-align: center;
+    padding: 30px;
+}
